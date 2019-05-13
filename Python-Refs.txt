@@ -1,0 +1,41 @@
+
+Installing Modules using PIP by ".whl" wheel file
+
+1. Type “cmd” in the Run prompt and press OK:
+2. PIP is used to unpack wheel files. At the prompt, type “python -m ensurepip”:
+3. If it tells you the requirement is already satisfied, run the upgrade
+   command: “python –m ensurepip –upgrade”:
+4. Install wheel. At the command prompt, type “pip install wheel”:
+5. If it tells you the requirement is already satisfied, run the upgrade
+   command: “pip install wheel –upgrade”:
+6. Now you’re ready to install. At the command line, make sure you’re in the same directory
+   as the ".whl" file and then type “pip install pygame-1.9.2a0-cp34-none-win_amd64.whl”:
+
+Checking Python installation
+
+1. python --version
+    or
+   python -V
+   -to check version
+2. python
+   -to get python prompt ">>>"
+   Use exit() or Ctrl-Z plus Return to exit
+3. where python
+   -to find where python is installed
+
+
+Python working directory for "IDLE" editor
+
+1. >>> import os
+   >>> os.getcwd()
+   -check current directory
+2. >>> os.chdir('C:\\Users\\poke\\Desktop\\')
+   >>> os.getcwd()
+   -change current directory and check
+3. >>> os.listdir()
+   -lists everything in the current directory
+4. >>> os.listdir("Tools/demo")
+   -lists everything in the mentioned "Tools/demo" directory or path in current directory
+5. alt + p
+   -view command history
+6. execute
